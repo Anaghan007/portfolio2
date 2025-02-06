@@ -85,7 +85,6 @@
   --fs-6: 14px;
   --fs-7: 13px;
   --fs-8: 11px;
-  --fs-9: 15px;
 
   /* font-weight */
   --fw-300: 300;
@@ -293,9 +292,16 @@ article.active {
   z-index: -1;
 }
 
-
-
-
+.timeline-item a{
+  color: black;
+  border: 2px solid transparent;
+  padding: 1px 10px;
+  border-radius: 4rem;
+  margin-top: 10px;
+  background: var(--light-gray);
+  cursor: pointer;
+  font-weight: 500;
+}
 
 /*-----------------------------------*\
   #MAIN
@@ -483,7 +489,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-9);
+  font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -505,7 +511,7 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -556,7 +562,7 @@ main {
 
 .service-item-text {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
@@ -787,7 +793,7 @@ main {
 }
 
 .timeline-list {
-  font-size: var(--fs-8);
+  font-size: var(--fs-6);
   margin-left: 45px;
 }
 
