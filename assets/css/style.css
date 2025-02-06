@@ -296,6 +296,7 @@ article.active {
   color: black;
   border: 2px solid transparent;
   padding: 1px 10px;
+  width: 130px;
   border-radius: 4rem;
   margin-top: 10px;
   background: var(--light-gray);
